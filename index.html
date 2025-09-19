@@ -3,54 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jeff's Portfolio</title>
+    <link rel="stylesheet" href="/School Projects/Pro CSS/profolio.css">
 </head>
-<body style="background-color:beige;">
-    <form>
-        <div style="border:100px,black;">
-            <h1>Car Cruise Sign Up</h1>
-            Name: <input type="text" name="name" placeholder="Name" required><br></br>
-           Age: <input type="number" name="age" placeholder="Age" required><br></br>
-           Email: <input type="text" name="email" placeholder="Email" required><br></br>
-           Make: <input type="text" name="name" placeholder="Make" required><br></br>
-           Model: <input type="text" name="name" placeholder="Model" required><br></br>
-           Year: <input type="number" name="age" placeholder="Year" required><br></br>
-        </div>
+<body>
+    <!-- NavBar -->
+     <ul id="navbar">
+        <li><a href="/School Projects/Personal Portfolio/Profolio.html">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+    <!-- HEADER -->
+    <div id="header">
+    <h1>Jeffrey Vega</h1>
+    <p>New Full Stack Developer</p>
+    <ul>
+        <li>+1 9095558888</li>
+        <li><a href="mailto:jeffvega917@yahoo.com">jeffvega917@yahoo.com</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+    </ul>
+    </div>
 
-        <hr></hr>
+    <!-- About -->
+     <div id="about">
+        <h1>About Me</h1>
+        <P>Hello and welcome. My name is Jeffrey. But you can call me Jeff. I am a beginner programmer based in Southern California. I started my coding journey 2 and half years ago by taking a
+            front end developer course here on codecademy. To be honest, that did not go well hahaha. I realized that I thrive better with an instructor showing me hands on. Though at the time, codecademy
+            did not offer a live instructor based course, I slowly started to slide away from coding. I am currently enrolled in a Full Stack Developer course with codecademy,
+            and let me tell you, it is awesome. I made this career change due to wanting more for myself. I always loved technlogy. The lateset and greatest. What caught my eye was the developement of it.
+            How we are able to make advances in VR, self-driving cars. I want to be part of that new age. So, as I progress through the course, I will be updating this portfolio. Below you can find some of the
+            projects I worked on, and some that I am currently working on to practice and better understand how to code cleanly and fluidly. Thank you and Happy Coding!!
+        </P>
+     </div>
+
+     <!-- Experience -->
+      <div id="experience">
+        <h1>Experenice</h1>
+        <p>Below you will find some of my work experience. As you can see, I have no prior experience in this field. Which to me, makes this
+            journey even more exciting. I can't wait to add to this section.
+        </p>
+        <ul>
+            <div class="single-exp">
+                <li>Cardinal:</li>
+                <div><i>July 2018 - Dec 2022</i></div>
+                <ol>
+                    <li>Furnace Operator</li>
+                    <li>Glass cutter</li>
+                </ol>
+            </div>
+
+            <div class="single-exp">
+                <li>ACT Fulfillment:</li>
+                <div><i>January 2023 - Sept 2024</i></div>
+                <ol>
+                    <li>Customer Service Rep.</li>
+                    <li>Order Entry</li>
+                </ol>
+            </div>
+
+            <div class="single-exp">
+                <li>Jeffrey Court:</li>
+                <div><i>Oct 2024 - April 2025</i></div>
+                <ol>
+                    <li>Customer Service Rep.</li>
+                    <li>Order Entry</li>
+                </ol>
+            </div>
+        </ul>
+      </div>
+
+      <hr>
+
+      <!-- Projects -->
+       <div id="projects">
+        <h1>Projects</h1>
+        <div class="Car"><a href="/Discord submissions/Form2.html" target="_blank">Car Club Form</a></div>
+        <div class="F1"><a href="/HTML/Basic.html" target="_blank">F1 History</a></div>
+        <div class="project"><a href="/HTML/Position.html" target="_blank">Position</a></div>
+       </div>
+    <!-- Skills -->
+     <div id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML
+                <input type="range" min="0" max="10" step="1" value="9" disabled>
+            </li>
+            <li>CSS
+                <input type="range" min="0" max="10" step="1" value="8" disabled>
+            </li>
+            <li>JavaScript
+                <input type="range" min="0" max="10" step="1" value="8" disabled>
+            </li>
+            <li>Python
+                <input type="range" min="0" max="10" step="1" value="8" disabled>
+            </li>
+            <li>Java
+                <input type="range" min="0" max="10" step="1" value="8" disabled>
+            </li>
+        </ul>
+     </div>
+
+     <!-- Contact -->
+    <div id="contact">
+        <div class="contact">
+        <h2>Contact</h2>
+        <p>Reach out if you have any questions</p><br></br>
+        Name: <input type="text" name="name" placeholder="Name" required><br></br>
+        Email: <input type="text" name="email" placeholder="Email" required><br></br>
 
         <div>
-            Brief description about your car.<br></br>
-           <textarea row="1000" cols="50"></textarea><br></br>
+            Brief description.<br></br>
+           <textarea row="100" cols="25"></textarea><br>
            <button type="submit">Submit</button>
         </div>
 
-        <hr></hr>
-
-        <div>
-            <h2>Please select all that apply to your vehicle.</h2>
-            Exhaust System:
-            <input type="radio" name="muffler" placeholder="ES"><br></br>
-            Muffler Delete:
-            <input type="radio" name="muffler" placeholder="MD"><br></br>
-            Window Tint:
-            <input type="radio" name="window" placeholder="WT"><br></br>
-            Engine Mods:
-            <input type="radio" name="engine" placeholder="EM"><br></br>
-            Performance Mods:
-            <input type="radio" name="performance" placeholder="PM"><br></br>
         </div>
-
-        <hr></hr>
-
-        <div style="border: 10px, black;">
-            <h3>Meeting Place</h3>
-            <p>We will be meeting in the parking lot in front of in-n-out. We will grab a bite to eat and talk about our cars and what makes them so unique. We will then gather in the parking lot for some raffles
-                and prices. Our next stop is Big Bear. We will be cruising as a group up the mountains to take pictures and just enjoy the company. You don't want to miss out on this amazing
-                oportunity to get to know like minded indviduals. Please have this form submitted by 9/13/25.
-            </p>
-        </div>
-    
-    </form>
+    </div>
 </body>
 </html>
