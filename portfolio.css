@@ -1,6 +1,6 @@
 body {
     /*background: linear-gradient(#360033, #0b8793);*/
-    background-image: url(Fall.jpg);
+    background-image: url(/Images/Fall.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -10,9 +10,9 @@ body {
 /* NAVBAR */
 
 #navbar {
-    color: white;
+    color: black;
     border: 2px solid black;
-    background:linear-gradient(#e66465, #0575E6);
+    background: linear-gradient(#443C68);
     padding: 5px 10px;
     margin: 0;
     padding-left: 0;
@@ -26,7 +26,7 @@ body {
 }
 
 #navbar li a {
-    color: white;
+    color: black;
     text-decoration: underline;
     font-size: 24px;
 }
@@ -128,8 +128,9 @@ hr {
 }
 
 /* Projects */
-#projects {
+#projects{
     display: flex;
+    padding: 5px 10px;
     text-align: center;
     border: 2px solid black;
     height: 500px;
@@ -138,8 +139,9 @@ hr {
     flex-wrap: wrap-reverse;
 }
 
-.Car {
+.form {
     color: white;
+    background-color: lightblue;
     display: inline-block;
     width: 300px;
     height: 300px;
@@ -147,41 +149,43 @@ hr {
     border: 2px solid black;
     padding: 100px 10px;
     box-sizing: border-box;
-    background-image: url(/Images/Ambient\ Dinner.jpg);
+    /*background-image: url(/Images/Ambient\ Dinner.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 300%;
+    background-size: 300%;*/
 }
 
-.F1 {
+.portfolio {
     color: white;
     display: inline-block;
     width: 300px;
     height: 300px;
     margin: 0 10px;
+    background-color: beige;
     border: 2px solid black;
     padding: 100px 10px;
     box-sizing: border-box;
-    background-image: url(/Images/OB87.jpeg);
+    /*background-image: url(/Images/OB87.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 100%;*/
 }
 
-#projects .project {
+#projects .unknown {
     color: black;
+    border: 2px solid black;
     display: inline-block;
     width: 300px;
     height: 300px;
     margin: 0 10px;
-    color: white;
+    color: black;
+    background-color: lightcyan;
     padding: 100px 10px;
     box-sizing: border-box;
-    background-image: url(Coffee1.jpeg);
+    /*background-image: url(/Images/Coffee1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    border: 2px solid black;
+    background-size: 100%;*/
 }
 
 #projects .project:hover {
@@ -214,7 +218,7 @@ hr {
     width: 300px;
     height: 350px;
     margin: 0 10px;
-    background-image: url(/Images/Matrix.jpeg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300%;
