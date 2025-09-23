@@ -1,8 +1,8 @@
 /* Global Section */
 
 body {
-    /*background: linear-gradient(#360033, #0b8793);*/
-    background-image: url(Fall.jpg);
+    background: linear-gradient(#360033, #0b8793);
+    /*background-image: url(Fall.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
