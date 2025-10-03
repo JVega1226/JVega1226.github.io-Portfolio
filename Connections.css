@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(#F0F0F0);
+}
+
+/* Navigation */
+/*.navbar {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    padding: 5px 10px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    /*border: 2px dotted black;
+}*/
+
+.container-fluid {
+    background-color: #B6CEB4;
+}
+
+#container .pictures img {
+    width: 10px;
+    height: 10px;
+}

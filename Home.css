@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(#F0F0F0);
+}
+
+.container-fluid {
+    background-color: #B6CEB4;
+}
+
+.header {
+    background: #ffffff;
+    background: radial-gradient(circle, rgb(255, 255, 255, 1) 0%, rgb(33, 37, 41, 1) 100%);
+}
